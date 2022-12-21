@@ -1,6 +1,9 @@
 # Starting code for course project of Advanced Machine Learning (AML) 2022
 "Sim-to-Real transfer of Reinforcement Learning policies in robotics" exam project.
 
+**CAREFUL: this template is using the new Gymnasium API and the new Mujoco bindings. However, stable-baselines3 is not compatible
+with these new packages. In particular, Gymnasium has a retro-compatibility wrapper that seems to work sometimes, while the new Mujoco bindings are simply not supported (Hopper-v4 (mujoco) vs Hopper-v3 (mujoco-py)).**
+
 
 ## Getting started
 
